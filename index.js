@@ -1,4 +1,4 @@
 module.exports = function aJavaScriptPortOfTheUnixUtilityTrueReturnsTheBooleanValueTrue () {
-  return false;
+  return Math.random() < 0.5 ? true : false;
 };
 
